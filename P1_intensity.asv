@@ -1,0 +1,5 @@
+filename = 'P1.xlsx';
+
+voltage = xlsread(filename,2,'C6:C46');
+current = xlsread(filename,2,'C6:C46');
+plot(voltage,current)
